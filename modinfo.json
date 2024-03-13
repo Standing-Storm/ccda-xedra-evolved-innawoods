@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "xedra_evolved_innawoods",
+    "name": "Xedra Evolved Innawoods",
+    "authors": [ "StandingStorm" ],
+    "maintainers": [ "StandingStorm" ],
+    "description": "Better blending for Xedra Evolved and Innawoods",
+    "category": "content",
+    "dependencies": [ "dda", "xedra_evolved", "innawood" ]
+  }
+]
