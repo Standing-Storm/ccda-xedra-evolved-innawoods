@@ -82,5 +82,30 @@
       { "item": "golden_bridle", "prob": 5 },
       { "item": "scrap_dreamdross", "prob": 75, "count": [ 12, 24 ] }
     ]
+  },
+   {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "renfield_death_drops",
+    "entries": [
+      { "group": "default_innawood_zombie_clothes", "prob": 100 },
+      { "item": "scrap_dreamdross", "prob": 75, "count": [ 1, 4 ] },
+      { "group": "blood_containers", "prob": 15 }
+    ]
+  },
+  {
+    "id": "default_moroi_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_innawood_zombie_clothes", "prob": 90 },
+      {
+        "distribution": [ { "group": "default_innawood_zombie_items", "prob": 80 }, { "group": "default_innawood_zombie_items_pockets", "prob": 20 } ]
+        "prob": 50
+      },
+      { "group": "blood_containers", "prob": 30 },
+      { "item": "grimy_recipe", "prob": 55 },
+      { "item": "scrap_dreamdross", "prob": 35, "count": [ 1, 4 ] }
+    ]
   }
 ]
