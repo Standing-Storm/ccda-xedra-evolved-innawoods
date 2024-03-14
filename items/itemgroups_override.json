@@ -189,12 +189,14 @@
     "entries": [
       { "item": "wicker_backpack", "prob": 2 },
       { "group": "tools_common_small", "prob": 50 },
+      { "item": "bandages_birchbark", "prob": 5 },
       { "group": "trash_forest", "prob": 80 },
       {
         "group": "ant_food",
         "prob": 30,
         "container-item": "null",
         "entry-wrapper": "bag_canvas_small",
+        "on_overflow": "spill",
         "count": [ 1, 3 ]
       },
       { "item": "water_clean", "prob": 50 },
