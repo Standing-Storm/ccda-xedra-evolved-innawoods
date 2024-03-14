@@ -155,7 +155,7 @@
     "id": "renfield_death_drops",
     "entries": [
       { "group": "default_innawood_zombie_clothes", "prob": 100, "damage": [ 1, 4 ] },
-      { "group": "default_innawood_zombie_items", "prob": 30 },
+      { "group": "default_innawood_zombie_items", "prob": 30, "count": [ 1, 2 ] },
       { "group": "default_feral_weapons", "prob": 75, "damage": [ 2, 4 ] },
       { "group": "default_feral_armor", "prob": 80, "damage": [ 2, 4 ] },
       { "item": "scrap_dreamdross", "prob": 75, "count": [ 1, 4 ] },
@@ -195,21 +195,34 @@
     "subtype": "distribution",
     "id": "default_innawood_zombie_items",
     "entries": [
-      { "item": "wicker_backpack", "prob": 5 },
+      { "item": "wicker_backpack", "prob": 2 },
       { "group": "tools_common_small", "prob": 50 },
-      { "group": "trash_forest", "prob": 30 },
-      { "group": "ant_food", "prob": 30, "count": [ 3, 6 ] },
+      { "group": "trash_forest", "prob": 80 },
+      {
+        "group": "ant_food",
+        "prob": 30,
+        "container-item": "null",
+        "entry-wrapper": "bag_canvas_small",
+        "count": [ 1, 3 ]
+      },
       { "item": "water_clean", "prob": 50 },
       {
+        "item": "wild_herbs",
+        "prob": 15,
+        "container-item": "null",
+        "entry-wrapper": "bag_canvas_small",
+        "count": [ 3, 12 ]
+      },
+      {
         "item": "faewild",
-        "prob": 5,
+        "prob": 3,
         "container-item": "null",
         "entry-wrapper": "bag_canvas_small",
         "count": [ 3, 12 ]
       },
       {
         "item": "lotus_blossom",
-        "prob": 5,
+        "prob": 3,
         "container-item": "null",
         "entry-wrapper": "bag_canvas_small",
         "count": [ 2, 16 ]
