@@ -50,5 +50,10 @@
         }
       ]
     }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_RESEARCH_THAUMATURGY_OUT",
+    "effect": [ { "u_message": "You've learned all you can about thaumaturgy for now", "type": "mixed" } ]
   }
 ]

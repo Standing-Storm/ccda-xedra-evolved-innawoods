@@ -1,0 +1,238 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "name": "assemble forest research materials",
+    "id": "assemble_forest_research_materials",
+    "description": "Conduct observation of the trees and grass and study herbs to develop a corpus of research for thaumaturgy.  You must be in a forest to conduct your research.",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_RESEARCH",
+    "difficulty": 5,
+    "skill_used": "survival",
+    "autolearn": true,
+    "time": "6 h",
+    "components": [ [ [ "paper", 50 ] ], [ [ "homemade_ink", 10 ] ] ],
+    "proficiencies": [ { "proficiency": "prof_occult_exploration", "required": true } ],
+    "result_eocs": [
+      {
+        "id": "EOC_RESEARCH_MATERIAL_FOREST",
+        "condition": { "or": [ { "u_has_effect": "effect_detect_magic" }, { "u_has_trait": "WITCHSIGHT_INFUSED_A" } ] },
+        "effect": [
+          {
+            "u_message": "You successfully assemble your varied notes and samples into a coherent plan for research.",
+            "type": "good"
+          },
+          { "u_spawn_item": "forest_research_materials", "suppress_message": true }
+        ],
+        "false_effect": [
+          {
+            "u_message": "Without the proper conditions, your observations aren't acute enough to form the foundation for any further research.",
+            "type": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "name": "assemble earth research materials",
+    "id": "assemble_earth_research_materials",
+    "description": "Conduct observation of the soil quality and study magical minerals to develop a corpus of research for thaumaturgy.  You must be underground to conduct your research.",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_RESEARCH",
+    "difficulty": 5,
+    "skill_used": "survival",
+    "autolearn": true,
+    "time": "6 h",
+    "components": [ [ [ "paper", 50 ] ], [ [ "homemade_ink", 10 ] ] ],
+    "proficiencies": [ { "proficiency": "prof_occult_exploration", "required": true } ],
+    "result_eocs": [
+      {
+        "id": "EOC_RESEARCH_MATERIAL_EARTH",
+        "condition": { "math": [ "u_val('pos_z')", "<=", "-1" ] },
+        "effect": [
+          {
+            "u_message": "You successfully assemble your varied notes and samples into a coherent plan for research.",
+            "type": "good"
+          },
+          { "u_spawn_item": "earth_research_materials", "suppress_message": true }
+        ],
+        "false_effect": [
+          {
+            "u_message": "Without the proper conditions, your observations aren't acute enough to form the foundation for any further research.",
+            "type": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "name": "assemble moon research materials",
+    "id": "assemble_moon_research_materials",
+    "description": "Conduct observation of the moon and study astrological charts to develop a corpus of research for thaumaturgy.  You must be outdoors at night to conduct your research.",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_RESEARCH",
+    "difficulty": 5,
+    "skill_used": "survival",
+    "autolearn": true,
+    "time": "6 h",
+    "components": [ [ [ "paper", 50 ] ], [ [ "homemade_ink", 10 ] ] ],
+    "proficiencies": [ { "proficiency": "prof_occult_exploration", "required": true } ],
+    "result_eocs": [
+      {
+        "id": "EOC_RESEARCH_MATERIAL_MOON",
+        "condition": { "and": [ "u_is_outside", { "not": "is_day" } ] },
+        "effect": [
+          {
+            "u_message": "You successfully assemble your varied notes and samples into a coherent plan for research.",
+            "type": "good"
+          },
+          { "u_spawn_item": "moon_research_materials", "suppress_message": true }
+        ],
+        "false_effect": [
+          {
+            "u_message": "Without the proper conditions, your observations aren't acute enough to form the foundation for any further research.",
+            "type": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "name": "assemble sky research materials",
+    "id": "assemble_sky_research_materials",
+    "description": "Conduct observation of the sky and study weather recordings develop a corpus of research for thaumaturgy.  You must be outdoors on a day with clouds to conduct your research.",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_RESEARCH",
+    "difficulty": 5,
+    "skill_used": "survival",
+    "autolearn": true,
+    "time": "6 h",
+    "components": [ [ [ "paper", 50 ] ], [ [ "homemade_ink", 10 ] ] ],
+    "proficiencies": [ { "proficiency": "prof_occult_exploration", "required": true } ],
+    "result_eocs": [
+      {
+        "id": "EOC_RESEARCH_MATERIAL_SKY",
+        "condition": { "and": [ "u_is_outside", { "not": { "is_weather": "sunny" } }, { "not": { "is_weather": "clear" } } ] },
+        "effect": [
+          {
+            "u_message": "You successfully assemble your varied notes and samples into a coherent plan for research.",
+            "type": "good"
+          },
+          { "u_spawn_item": "sky_research_materials", "suppress_message": true }
+        ],
+        "false_effect": [
+          {
+            "u_message": "Without the proper conditions, your observations aren't acute enough to form the foundation for any further research.",
+            "type": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "name": "assemble sea research materials",
+    "id": "assemble_sea_research_materials",
+    "description": "Conduct observation of the waves and study tidal records to develop a corpus of research for thaumaturgy.",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_RESEARCH",
+    "difficulty": 5,
+    "skill_used": "survival",
+    "autolearn": true,
+    "time": "6 h",
+    "components": [ [ [ "paper", 50 ] ], [ [ "homemade_ink", 10 ] ] ],
+    "proficiencies": [ { "proficiency": "prof_occult_exploration", "required": true } ],
+    "result_eocs": [
+      {
+        "id": "EOC_RESEARCH_MATERIAL_SEA",
+        "condition": {
+          "or": [
+            { "u_at_om_location": "generic_river_bank" },
+            { "u_at_om_location": "generic_river" },
+            { "u_at_om_location": "river_center" },
+            { "u_at_om_location": "river" },
+            { "u_at_om_location": "river_c_not_ne" },
+            { "u_at_om_location": "river_c_not_nw" },
+            { "u_at_om_location": "river_c_not_se" },
+            { "u_at_om_location": "river_c_not_sw" },
+            { "u_at_om_location": "river_ne" },
+            { "u_at_om_location": "river_se" },
+            { "u_at_om_location": "river_sw" },
+            { "u_at_om_location": "river_nw" },
+            { "u_at_om_location": "lake_shore" },
+            { "u_at_om_location": "lake_surface" },
+            { "u_at_om_location": "ocean_surface" },
+            { "u_at_om_location": "ocean_shore" },
+            { "u_at_om_location": "lake_surface" }
+          ]
+        },
+        "effect": [
+          {
+            "u_message": "You successfully assemble your varied notes and samples into a coherent plan for research.",
+            "type": "good"
+          },
+          { "u_spawn_item": "sea_research_materials", "suppress_message": true }
+        ],
+        "false_effect": [
+          {
+            "u_message": "Without the proper conditions, your observations aren't acute enough to form the foundation for any further research.",
+            "type": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "name": "research thaumaturgy",
+    "id": "learn_hedge_magic_spells",
+    "description": "Take all your observations and study them, trying to learn the deeper secrets of the world.",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_RESEARCH",
+    "difficulty": 6,
+    "skill_used": "survival",
+    "time": "12 h",
+    "components": [
+      [ [ "paper", 150 ] ],
+      [ [ "homemade_ink", 40 ] ],
+      [ [ "sea_research_materials", 1 ] ],
+      [ [ "sky_research_materials", 1 ] ],
+      [ [ "moon_research_materials", 1 ] ],
+      [ [ "earth_research_materials", 1 ] ],
+      [ [ "forest_research_materials", 1 ] ]
+    ],
+    "proficiencies": [ { "proficiency": "prof_occult_exploration", "required": true } ],
+    "result_eocs": [
+      {
+        "id": "EOC_RESEARCH_THAUMATURGY_GAIN_SPELL",
+        "effect": [
+          {
+            "u_roll_remainder": [
+              "hedge_ward_off_rain",
+              "hedge_summon_witchlight",
+              "hedge_make_plants_grow",
+              "hedge_light_fire",
+              "hedge_see_fae_necklace",
+              "hedge_see_nether_eye_paste",
+              "hedge_stunning_spell",
+              "hedge_cure_cold_or_flu",
+              "hedge_evil_eye_ward"
+            ],
+            "type": "spell",
+            "true_eocs": [  ],
+            "false_eocs": [ "EOC_RESEARCH_THAUMATURGY_OUT" ]
+          },
+          { "u_message": "You learn a secret of thaumaturgy.", "type": "good" }
+        ]
+      }
+    ]
+  }
+]
