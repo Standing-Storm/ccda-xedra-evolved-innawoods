@@ -149,7 +149,7 @@
       { "group": "default_innawood_zombie_clothes", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "default_innawood_zombie_items", "prob": 30, "count": [ 1, 2 ] },
       { "group": "default_feral_weapons", "prob": 75, "damage": [ 2, 4 ] },
-      { "group": "default_feral_armor", "prob": 80, "damage": [ 2, 4 ] },
+      { "group": "default_feral_armor", "prob": 25, "damage": [ 2, 4 ] },
       { "item": "scrap_dreamdross", "prob": 75, "count": [ 1, 4 ] },
       { "group": "blood_containers", "prob": 15 }
     ]
@@ -166,9 +166,9 @@
         ],
         "prob": 15
       },
-      { "item": "primitive_axe", "prob": 20 },
+      { "item": "primitive_axe", "prob": 35 },
       { "item": "sheath_birchbark", "contents-item": "primitive_knife", "prob": 15 },
-      { "item": "spear_stone", "prob": 40 }
+      { "item": "spear_stone", "prob": 50 }
     ]
   },
   {
