@@ -5,7 +5,7 @@
     "id": "default_zombie_clothes",
     "entries": [
       {
-        "distribution": [ { "group": "default_zombie_clothes_male", "prob": 50 }, { "group": "default_zombie_clothes_female", "prob": 50 } ]
+        "distribution": [ { "group": "default_zombie_clothes_male", "prob": 50 }, { "group": "default_zombie_clothes_female", "prob": 50 } ],
         "prob": 100
       },
       { "group": "coats_unisex", "damage": [ 1, 4 ], "prob": 20 },
@@ -24,7 +24,7 @@
       { "group": "male_underwear_bottom", "damage": [ 1, 4 ], "prob": 95 },
       { "group": "male_underwear_top", "damage": [ 1, 4 ], "prob": 50 },
       { "group": "pants_male", "damage": [ 1, 4 ], "prob": 95 },
-       { "group": "shirts", "damage": [ 1, 4 ], "prob": 40 },
+      { "group": "shirts", "damage": [ 1, 4 ], "prob": 40 }
     ]
   },
   {
@@ -35,14 +35,14 @@
       { "group": "female_underwear_bottom", "damage": [ 1, 4 ], "prob": 95 },
       { "group": "female_underwear_top", "damage": [ 1, 4 ], "prob": 95 },
       { "group": "pants_female", "damage": [ 1, 4 ], "prob": 95 },
-       { "group": "shirts", "damage": [ 1, 4 ], "prob": 40 },
+      { "group": "shirts", "damage": [ 1, 4 ], "prob": 40 }
     ]
   },
   {
     "id": "gossamer_clothes",
     "type": "item_group",
     "subtype": "collection",
-    "entries" [
+    "entries": [
       { "group": "gossamer_upper_body", "prob": 70 },
       { "group": "gossamer_lower_body", "prob": 70 },
       { "group": "gossamer_outerwear", "prob": 25 },
@@ -51,9 +51,8 @@
       { "group": "clothing_glasses", "prob": 5 },
       { "group": "fae_furs", "prob": 10 }
     ]
-    
   },
-   {
+  {
     "id": "changeling_death_drops",
     "type": "item_group",
     "subtype": "collection",
@@ -122,7 +121,7 @@
       { "item": "scrap_dreamdross", "prob": 75, "count": [ 12, 24 ] }
     ]
   },
-   {
+  {
     "type": "item_group",
     "subtype": "collection",
     "id": "renfield_death_drops",
@@ -139,7 +138,10 @@
     "entries": [
       { "group": "default_innawood_zombie_clothes", "prob": 90 },
       {
-        "distribution": [ { "group": "default_innawood_zombie_items", "prob": 80 }, { "group": "default_innawood_zombie_items_pockets", "prob": 20 } ]
+        "distribution": [
+          { "group": "default_innawood_zombie_items", "prob": 80 },
+          { "group": "default_innawood_zombie_items_pockets", "prob": 20 }
+        ],
         "prob": 50
       },
       { "group": "blood_containers", "prob": 30 },
