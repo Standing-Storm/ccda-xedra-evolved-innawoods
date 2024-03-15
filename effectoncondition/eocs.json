@@ -1,58 +1,6 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "scenario_paraclesian_birth_lost_alone",
-    "eoc_type": "SCENARIO_SPECIFIC",
-    "condition": { "u_has_trait": "IERDE" },
-    "effect": [ { "math": [ "u_vitamin('mutagen_earthkin')", "+=", "550 " ] }, { "math": [ "u_vitamin('mutagen')", "+=", "550" ] } ],
-    "false_effect": {
-      "run_eocs": [
-        {
-          "id": "scenario_paraclesian_birth_lost_alone2",
-          "condition": { "u_has_trait": "UNDINE" },
-          "effect": [ { "math": [ "u_vitamin('mutagen_waterkin')", "+=", "550 " ] }, { "math": [ "u_vitamin('mutagen')", "+=", "550" ] } ],
-          "false_effect": {
-            "run_eocs": [
-              {
-                "id": "scenario_paraclesian_birth_lost_alone3",
-                "condition": { "u_has_trait": "SALAMANDER" },
-                "effect": [ { "math": [ "u_vitamin('mutagen_flamekin')", "+=", "550 " ] }, { "math": [ "u_vitamin('mutagen')", "+=", "550" ] } ],
-                "false_effect": {
-                  "run_eocs": [
-                    {
-                      "id": "scenario_paraclesian_birth_lost_alone4",
-                      "condition": { "u_has_trait": "SYLPH" },
-                      "effect": [ { "math": [ "u_vitamin('mutagen_airkin')", "+=", "550 " ] }, { "math": [ "u_vitamin('mutagen')", "+=", "550" ] } ],
-                      "false_effect": {
-                        "run_eocs": [
-                          {
-                            "id": "scenario_paraclesian_birth_lost_alone5",
-                            "condition": { "u_has_trait": "HOMULLUS" },
-                            "effect": [ { "math": [ "u_vitamin('mutagen_dollkin')", "+=", "550 " ] }, { "math": [ "u_vitamin('mutagen')", "+=", "550" ] } ],
-                            "false_effect": {
-                              "run_eocs": [
-                                {
-                                  "id": "scenario_paraclesian_birth_lost_alone6",
-                                  "condition": { "u_has_trait": "ARVORE" },
-                                  "effect": [ { "math": [ "u_vitamin('mutagen_plantkin')", "+=", "550 " ] }, { "math": [ "u_vitamin('mutagen')", "+=", "550" ] } ]
-                                }
-                              ]
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "effect_on_condition",
     "id": "EOC_RESEARCH_THAUMATURGY_OUT",
     "effect": [ { "u_message": "You've learned all you can about thaumaturgy for now", "type": "mixed" } ]
   }
