@@ -125,5 +125,11 @@
       { "item": "grimy_recipe", "prob": 55 },
       { "item": "scrap_dreamdross", "prob": 35, "count": [ 1, 4 ] }
     ]
+  },
+  {
+    "id": "blood_containers",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ [ "bowl_skull", 100 ], { "item": "blood", "prob": 400, "container-item": "waterskin" } ]
   }
 ]
