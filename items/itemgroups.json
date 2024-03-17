@@ -79,6 +79,7 @@
       { "group": "trash_forest", "prob": 80 },
       { "group": "renfield_food", "prob": 30, "count": [ 1, 3 ] },
       { "item": "water_clean", "prob": 50 },
+      { "item": "straw_doll", "prob": 3 },
       {
         "item": "wild_herbs",
         "prob": 15,
