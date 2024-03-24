@@ -227,7 +227,10 @@
               "hedge_evil_eye_ward",
               "hedge_extra_lock_door",
               "hedge_clairvoyance_cone",
-              "hedge_increase_healing_rate"
+              "hedge_increase_healing_rate",
+              "hedge_increase_bandaging_rate",
+              "hedge_hide_in_forest",
+              "hedge_no_nightmares"
             ],
             "type": "spell",
             "true_eocs": [  ],
