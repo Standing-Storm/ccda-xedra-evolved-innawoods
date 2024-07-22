@@ -230,7 +230,8 @@
               "hedge_increase_healing_rate",
               "hedge_increase_bandaging_rate",
               "hedge_hide_in_forest",
-              "hedge_no_nightmares"
+              "hedge_no_nightmares",
+              "hedge_turn_into_bear"
             ],
             "type": "spell",
             "true_eocs": [  ],
