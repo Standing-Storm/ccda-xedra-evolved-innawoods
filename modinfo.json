@@ -6,7 +6,7 @@
     "authors": [ "StandingStorm" ],
     "maintainers": [ "StandingStorm" ],
     "description": "Better blending for Xedra Evolved and Innawoods",
-    "category": "misc_additions",
+    "category": "content",
     "dependencies": [ "dda", "xedra_evolved", "innawood" ]
   }
 ]
