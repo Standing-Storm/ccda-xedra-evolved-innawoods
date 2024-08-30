@@ -47,20 +47,12 @@
         "id": "EOC_STUDY_OCCULT_RESEARCH_NOTES",
         "condition": { "roll_contested": { "math": [ "u_skill('deduction') + rng(-2,8) + rng(-2,8)" ] }, "difficulty": 10 },
         "effect": [
-          { "u_message": "You were right, there is something here!  It's a good thing you kept looking.", "type": "good" },
-          { "u_spawn_item": "used_occult_notes", "suppress_message": true },
           {
-            "u_roll_remainder": [
-              "assemble_forest_research_materials",
-              "assemble_earth_research_materials",
-              "assemble_moon_research_materials",
-              "assemble_sky_research_materials",
-              "assemble_sea_research_materials"
-            ],
-            "type": "recipe",
-            "true_eocs": [ "EOC_RESEARCH_NATURAL_WORLD_MESSAGE" ],
-            "false_eocs": [  ]
-          }
+            "u_message": "You were right, there is something here!  If you compiled a reference for all your notes, you'd have the foundation for a greater exploration of the Unseen World.",
+            "type": "good"
+          },
+          { "u_spawn_item": "used_occult_notes", "suppress_message": true },
+          { "u_learn_recipe": "magical_grimoire_apprentice" }
         ],
         "false_effect": [
           {

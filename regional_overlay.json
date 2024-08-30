@@ -1,0 +1,184 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "//": "Designed to make forests and swamps more common and wilderness food more rare, as well as allowing easier access to the ocean in a world without roads",
+    "overmap_forest_settings": {
+      "noise_threshold_forest": 0.15,
+      "noise_threshold_forest_thick": 0.25,
+      "noise_threshold_swamp_adjacent_water": 0.3,
+      "noise_threshold_swamp_isolated": 0.6,
+      "river_floodplain_buffer_distance_min": 3,
+      "river_floodplain_buffer_distance_max": 15
+    },
+    "overmap_ocean_settings": {
+      "noise_threshold_ocean": 0.25,
+      "ocean_size_min": 100,
+      "ocean_depth": -9,
+      "ocean_start_north": 500,
+      "ocean_start_east": 3,
+      "ocean_start_west": 1000,
+      "ocean_start_south": 5,
+      "sandy_beach_width": 15
+    },
+    "region_terrain_and_furniture": {
+      "terrain": {
+        "t_region_shrub_forest_dense": {
+          "t_underbrush": 120,
+          "t_shrub": 40,
+          "t_fern": 40,
+          "t_shrub_blueberry": 2,
+          "t_shrub_raspberry": 2,
+          "t_shrub_huckleberry": 2,
+          "t_shrub_strawberry": 1,
+          "t_shrub_grape": 1
+        },
+        "t_region_shrub_forest": { "t_region_shrub_forest_dense": 60, "t_shrub_rose": 1, "t_shrub_blackberry": 1 },
+        "t_region_shrub_plains": {
+          "t_shrub": 80,
+          "t_shrub_blueberry": 2,
+          "t_shrub_blackberry": 2,
+          "t_shrub_rose": 2,
+          "t_shrub_huckleberry": 1,
+          "t_shrub_strawberry": 1,
+          "t_shrub_grape": 1
+        },
+        "t_region_shrub_swamp": { "t_fern": 80, "t_shrub_raspberry": 2, "t_shrub_blueberry": 2, "t_shrub_huckleberry": 1, "t_shrub_rose": 1 },
+        "t_region_shrub_fruit": {
+          "t_shrub_blueberry": 6,
+          "t_shrub_strawberry": 6,
+          "t_shrub_raspberry": 4,
+          "t_shrub_grape": 4,
+          "t_shrub_blackberry": 2,
+          "t_shrub_huckleberry": 2,
+          "t_shrub_peanut": 1
+        },
+        "t_region_tree_forest_dense": {
+          "t_tree": 72,
+          "t_tree_blackjack": 40,
+          "t_tree_hickory": 72,
+          "t_tree_pine": 36,
+          "t_tree_maple": 28,
+          "t_tree_birch": 28,
+          "t_tree_beech": 28,
+          "t_tree_cottonwood": 16,
+          "t_tree_elm": 16,
+          "t_tree_cherry": 4,
+          "t_tree_plum": 2,
+          "t_tree_sassafras": 1,
+          "t_tree_witchwood": 1,
+          "t_region_tree_dead": 20,
+          "t_region_tree_forest_other": 50
+        },
+        "t_region_tree_forest_other": {
+          "t_tree_willow": 60,
+          "t_tree_alder": 60,
+          "t_tree_chestnut": 30,
+          "t_tree_basswood": 30,
+          "t_tree_hazelnut": 30,
+          "t_tree_apple": 10,
+          "t_tree_coffee": 1,
+          "t_tree_apricot": 2,
+          "t_tree_peach": 1,
+          "t_tree_pear": 1,
+          "t_tree_elderberry": 10,
+          "t_tree_mulberry": 10,
+          "t_tree_sassafras": 2,
+          "t_tree_juniper": 5
+        },
+        "t_region_tree_forest": { "t_region_tree_forest_dense": 2, "t_region_tree_forest_other": 1 },
+        "t_region_tree": {
+          "t_tree": 128,
+          "t_tree_young": 128,
+          "t_tree_birch": 16,
+          "t_tree_elm": 16,
+          "t_tree_cottonwood": 16,
+          "t_tree_basswood": 16,
+          "t_tree_alder": 16,
+          "t_tree_pine": 32,
+          "t_tree_maple": 32,
+          "t_tree_willow": 32,
+          "t_tree_hickory": 16,
+          "t_tree_walnut": 8,
+          "t_tree_butternut": 4,
+          "t_tree_chestnut": 8,
+          "t_tree_hazelnut": 2,
+          "t_tree_beech": 2,
+          "t_tree_blackjack": 8,
+          "t_tree_coffee": 2,
+          "t_tree_apple": 2,
+          "t_tree_apricot": 2,
+          "t_tree_cherry": 2,
+          "t_tree_juniper": 2,
+          "t_tree_peach": 2,
+          "t_tree_pear": 2,
+          "t_tree_plum": 2,
+          "t_tree_elderberry": 2,
+          "t_tree_mulberry": 2,
+          "t_tree_sassafras": 3,
+          "t_region_tree_dead": 48
+        },
+        "t_region_tree_shade": {
+          "t_tree": 256,
+          "t_tree_young": 128,
+          "t_tree_birch": 64,
+          "t_tree_elm": 64,
+          "t_tree_cottonwood": 64,
+          "t_tree_basswood": 64,
+          "t_tree_alder": 64,
+          "t_tree_maple": 128,
+          "t_tree_willow": 128,
+          "t_tree_hickory": 64,
+          "t_tree_chestnut": 32,
+          "t_tree_blackjack": 32,
+          "t_tree_coffee": 2,
+          "t_tree_elderberry": 2,
+          "t_tree_mulberry": 2,
+          "t_tree_sassafras": 3,
+          "t_tree_dead": 2
+        },
+        "t_region_tree_fruit": {
+          "t_tree_young": 20,
+          "t_tree_apple": 2,
+          "t_tree_apricot": 2,
+          "t_tree_cherry": 2,
+          "t_tree_peach": 2,
+          "t_tree_pear": 2,
+          "t_tree_plum": 2,
+          "t_tree_elderberry": 2,
+          "t_tree_mulberry": 2,
+          "t_tree_dead": 4
+        },
+        "t_region_tree_dead": {
+          "t_tree_hickory_dead": 8,
+          "t_tree_dead": 7,
+          "t_tree_dead_warped": 1,
+          "t_tree_deadpine": 3,
+          "t_tree_deadpine_warped": 1
+        },
+        "t_region_tree_nut": {
+          "t_tree_hickory": 16,
+          "t_tree_hickory_dead": 16,
+          "t_tree_walnut": 8,
+          "t_tree_butternut": 4,
+          "t_tree_chestnut": 8,
+          "t_tree_young": 4,
+          "t_tree_beech": 2,
+          "t_tree_hazelnut": 2,
+          "t_tree_coffee": 2,
+          "t_tree_dead": 4
+        }
+      },
+      "furniture": {
+        "f_region_water_plant": { "f_cattails": 30, "f_purple_loosestrife": 20, "f_wild_rice": 2, "f_lilypad": 2, "f_lotus": 10, "f_maidenshair": 1 },
+        "f_region_weed": { "f_morningflower": 10 },
+        "f_region_forest": { "f_morningflower": 20, "f_harfry": 10 },
+        "f_region_forest_dense": { "f_morningflower": 20, "f_harfry": 20 }
+      }
+    },
+    "map_extras": {
+      "forest_thick": { "chance": 30, "extras": { "mx_witchwood_grove": 30 } },
+      "forest": { "chance": 20, "extras": { "mx_witchwood_grove": 5 } }
+    }
+  }
+]
