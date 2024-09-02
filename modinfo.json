@@ -2,10 +2,10 @@
   {
     "type": "MOD_INFO",
     "id": "xedra_evolved_innawoods",
-    "name": "Xedra Evolved Innawoods",
+    "name": "XedraWood: Stone and Sorcery",
     "authors": [ "StandingStorm" ],
     "maintainers": [ "StandingStorm" ],
-    "description": "Better blending for Xedra Evolved and Innawoods",
+    "description": "Better blending for Xedra Evolved and Innawoods.  Also forms the core for a number of optional supplemental mods.",
     "category": "content",
     "dependencies": [ "dda", "xedra_evolved", "innawood" ]
   }
