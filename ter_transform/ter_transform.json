@@ -3,8 +3,8 @@
     "type": "ter_furn_transform",
     "id": "summoned_brambles",
     "furniture": [
-      {
-        "result": "f_magic_brambles",
+      {
+        "result": "f_magic_brambles",
         "valid_furniture": [
           "f_null",
           "f_cattails",
