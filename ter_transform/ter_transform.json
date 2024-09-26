@@ -1,8 +1,8 @@
 [
   {
-    "type": "ter_furn_transform",
-    "id": "summoned_brambles",
-    "furniture": [
+    "type": "ter_furn_transform",
+    "id": "summoned_brambles",
+    "furniture": [
       {
         "result": "f_magic_brambles",
         "valid_furniture": [
