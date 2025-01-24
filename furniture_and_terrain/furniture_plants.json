@@ -6,7 +6,7 @@
     "looks_like": "f_brambles",
     "symbol": "#",
     "bgcolor": "brown",
-    "description": "A thick wall of tangled brambles grows here.  Vicious thorns protrude from the stems.",
+    "description": "A thick wall of tangled brambles grows here.  Vicious thorns protrude from the stems.",
     "move_cost_mod": 8,
     "coverage": 75,
     "required_str": -1,
