@@ -1,7 +1,8 @@
 [
   {
     "id": "water_clean",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "comestible_type": "DRINK",
     "name": "clean water",
     "copy-from": "water_clean",

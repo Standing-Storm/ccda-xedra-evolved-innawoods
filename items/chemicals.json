@@ -1,6 +1,7 @@
 [
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "ink_abstract",
     "category": "chems",
     "price": "30 USD",
@@ -18,7 +19,8 @@
     "count": 10
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "homemade_ink",
     "copy-from": "ink_abstract",
     "name": { "str_sp": "homemade ink" },
@@ -26,7 +28,8 @@
     "color": "yellow"
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "magical_ink_simple",
     "copy-from": "ink_abstract",
     "name": { "str_sp": "magical ink, apprentice" },

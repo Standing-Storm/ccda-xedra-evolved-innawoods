@@ -11,7 +11,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "update_mapgen_id": "mx_witchwood_grove",
     "object": {
       "rows": [
@@ -46,7 +45,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "witchwood_trees",
     "object": {
       "mapgensize": [ 9, 9 ],

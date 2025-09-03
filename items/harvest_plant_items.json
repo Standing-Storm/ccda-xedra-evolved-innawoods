@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "morningflower_leaves",
     "symbol": ",",
     "color": "yellow",
@@ -16,7 +17,8 @@
     "flags": [ "LIGHT_5", "SMOKABLE", "INEDIBLE" ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "morningflower_leaves_smoked",
     "symbol": ",",
     "color": "yellow",
@@ -32,7 +34,8 @@
     "flags": [ "SMOKED", "LIGHT_1", "INEDIBLE" ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "harfry_root",
     "name": { "str": "harfry root" },
     "weight": "168 g",
@@ -50,7 +53,8 @@
     "flags": [ "RAW" ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "maidens_hair",
     "symbol": "/",
     "color": "light_green",
@@ -66,7 +70,7 @@
     "flags": [ "INEDIBLE" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "witchwood_bark",
     "copy-from": "alder_bark",
     "name": { "str": "witchwood bark" },
@@ -74,7 +78,7 @@
     "description": "A thin strip of silvery-blue bark harvested from a witchwood tree.  Touching it makes your fingers tingle slightly."
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "starsbreath_harvested",
     "name": { "str": "stars' breath flower" },
     "weight": "20 g",
@@ -85,7 +89,8 @@
     "volume": "150 ml"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "corpsefire_cap",
     "name": { "str": "corpsefire cap" },
     "description": "The cap of a corpsefire mushroom.  It still has a faint glow about it.",
