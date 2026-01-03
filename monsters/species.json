@@ -17,6 +17,11 @@
   },
   {
     "type": "SPECIES",
+    "id": "DINOSAUR",
+    "description": "a warm-blooded lizard"
+  },
+  {
+    "type": "SPECIES",
     "id": "UNDEAD",
     "description": "a creature animated by necromancy",
     "flags": [ "DRACULIN_IMMUNE" ]

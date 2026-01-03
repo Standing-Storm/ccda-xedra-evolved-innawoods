@@ -94,7 +94,7 @@
     "move_cost_mod": 0,
     "required_str": -1,
     "light_emitted": 5,
-    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "LIGHT_5" ],
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE" ],
     "examine_action": "harvest_furn",
     "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "harvest_corpsefire" } ],
     "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }

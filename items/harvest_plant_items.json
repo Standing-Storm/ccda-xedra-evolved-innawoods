@@ -14,7 +14,9 @@
     "weight": "15 g",
     "volume": "50 ml",
     "melee_damage": { "bash": 4 },
-    "flags": [ "LIGHT_5", "SMOKABLE", "INEDIBLE" ]
+    "light": 5,
+    "smoking_result": "morningflower_leaves_smoked",
+    "flags": [ "INEDIBLE" ]
   },
   {
     "type": "ITEM",
@@ -31,7 +33,8 @@
     "weight": "15 g",
     "volume": "50 ml",
     "melee_damage": { "bash": 4 },
-    "flags": [ "SMOKED", "LIGHT_1", "INEDIBLE" ]
+    "light": 1,
+    "flags": [ "SMOKED", "INEDIBLE" ]
   },
   {
     "type": "ITEM",
@@ -100,7 +103,8 @@
     "color": "white",
     "symbol": ",",
     "material": [ "veggy" ],
-    "flags": [ "RAW", "LIGHT_2" ],
+    "flags": [ "RAW" ],
+    "light": 2,
     "calories": 10,
     "spoils_in": "8 days 16 hours",
     "fun": 0,

@@ -296,12 +296,17 @@
               "hedge_cure_cold_or_flu",
               "hedge_evil_eye_ward",
               "hedge_extra_lock_door",
+              "hedge_luck_spell",
               "hedge_clairvoyance_cone",
               "hedge_increase_healing_rate",
               "hedge_increase_bandaging_rate",
               "hedge_hide_in_forest",
               "hedge_no_nightmares",
-              "hedge_turn_into_bear"
+              "hedge_turn_into_bear",
+              "hedge_walk_on_water",
+              "hedge_bless_steel_weapon",
+              "hedge_astral_projection",
+              "hedge_protect_the_mind"
             ],
             "type": "spell",
             "true_eocs": [  ],
