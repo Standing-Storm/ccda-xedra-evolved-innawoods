@@ -5,7 +5,7 @@
     "looks_like": "mon_skeleton",
     "name": { "str": "animated skeleton" },
     "description": "A skeleton bare of flesh, a fell red light in its empty eye sockets.  In one bony head it clutches a rusted and pitted bronze sword.",
-    "default_faction": "zombie",
+    "default_faction": "undead",
     "bodytype": "human",
     "species": [ "UNDEAD" ],
     "volume": "62500 ml",
@@ -43,7 +43,7 @@
       },
       { "id": "scratch", "condition": { "not": { "test_eoc": "is_disarmed" } } }
     ],
-    "death_drops": "default_zombie_death_drops",
+    "death_drops": "default_skeleton_death_drops",
     "upgrades": false,
     "flags": [
       "SEES",

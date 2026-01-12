@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "undead",
+    "base_faction": "nether_hate_humans",
+    "neutral": [ "zombie", "nether" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "zombie",
+    "copy-from": "zombie",
+    "extend": { "neutral": [ "undead" ] }
+  }
+]
