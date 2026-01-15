@@ -306,7 +306,11 @@
               "hedge_walk_on_water",
               "hedge_bless_steel_weapon",
               "hedge_astral_projection",
-              "hedge_protect_the_mind"
+              "hedge_protect_the_mind",
+              "hedge_extinguish_fire_spell",
+              "hedge_raziel_amulet_protection",
+              "hedge_prevent_wild_animal_attacks",
+              "hedge_chicken_sacrifice_make_rain"
             ],
             "type": "spell",
             "true_eocs": [  ],
