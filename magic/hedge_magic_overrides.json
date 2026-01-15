@@ -3,8 +3,8 @@
     "id": "hedge_protect_the_mind",
     "copy-from": "hedge_protect_the_mind",
     "type": "SPELL",
-    "name": "To Shield the Mind from Assault",
-    "description": "The first principle of defending your spirit is to make sure it is in proper order so there is no foothold an assault can take advantage of.  While in effect, your mind is protected against attack.  <color_red>Too much pain</color> will disrupt your concentration.",
+    "name": "To Shield the Spirit from Assault",
+    "description": "The first principle of defending your spirit is to make sure it is in proper order so there is no foothold an assault can take advantage of.  While in effect, your soul is protected against attack.  <color_red>Too much pain</color> will disrupt your concentration.",
     "message": "You settle down and begin ordering your spirit."
   },
   {
