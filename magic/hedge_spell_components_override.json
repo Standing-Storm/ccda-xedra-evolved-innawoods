@@ -1,5 +1,10 @@
 [
   {
+    "id": "spell_components_hedge_clairvoyance_cone",
+    "type": "requirement",
+    "components": [ [ [ "sharp_rock", -1 ] ] ]
+  },
+  {
     "id": "spell_components_hedge_raziel_amulet_protection",
     "type": "requirement",
     "qualities": [ { "id": "CUT_FINE", "level": 1 } ],

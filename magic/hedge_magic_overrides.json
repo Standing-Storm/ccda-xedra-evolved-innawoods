@@ -1,5 +1,13 @@
 [
   {
+    "id": "hedge_clairvoyance_cone",
+    "copy-from": "hedge_clairvoyance_cone",
+    "type": "SPELL",
+    "name": "To See Beyond the Barriers",
+    "description": "Gain a brief vision of what lies beyond a barrier.",
+    "message": "You close your eyes and place the sharp rock over them and press, just slightly.  As the pain blooms and the blood trickles, you see beyond."
+  },
+  {
     "id": "hedge_protect_the_mind",
     "copy-from": "hedge_protect_the_mind",
     "type": "SPELL",
