@@ -1,5 +1,11 @@
 [
   {
+    "id": "spell_components_hedge_luck_spell",
+    "type": "requirement",
+    "tools": [ [ [ "candle_lit", -1 ] ], [ [ "survival_marker", 8 ] ] ],
+    "components": [ [ [ "copper", 1 ] ], [ [ "paper", 1 ] ] ]
+  },
+  {
     "id": "spell_components_hedge_clairvoyance_cone",
     "type": "requirement",
     "components": [ [ [ "sharp_rock", -1 ] ] ]

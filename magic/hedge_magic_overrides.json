@@ -8,6 +8,14 @@
     "message": "You close your eyes and place the sharp rock over them and press, just slightly.  As the pain blooms and the blood trickles, you see beyond."
   },
   {
+    "id": "hedge_luck_spell",
+    "copy-from": "hedge_luck_spell",
+    "type": "SPELL",
+    "name": "To Spin the Coin of Gad",
+    "description": "With a candle, a bit of copper, and paper, this will create a short lived luck charm upon oneself.",
+    "message": "You write the words upon the paper, place the copper on the ground, place the paper upon the copper, light the candle then the paper and firmly place the candle in the ashes on top of the copper, let the candle burn down melting all over the copper.  You will find your steps slightly lucky for the several hours to potentially a full day."
+  },
+  {
     "id": "hedge_protect_the_mind",
     "copy-from": "hedge_protect_the_mind",
     "type": "SPELL",
