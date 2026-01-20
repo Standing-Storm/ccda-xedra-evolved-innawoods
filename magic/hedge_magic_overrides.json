@@ -37,14 +37,6 @@
     "type": "SPELL",
     "name": "To Shut the Bear's Mouth",
     "description": "Wild animals are one of the greatest threats to you now.  By entreating the aid of the spirits who rule over dangerous creatures and using the droppings of living animals, you can prevent nearby wild animals from attacking you.",
-    "components": "spell_components_hedge_prevent_wild_animal_attacks"
-  },
-  {
-    "id": "hedge_prevent_wild_animal_attacks",
-    "copy-from": "hedge_prevent_wild_animal_attacks",
-    "type": "SPELL",
-    "name": "To Shut the Bear's Mouth",
-    "description": "Wild animals are one of the greatest threats to you now.  By entreating the aid of the spirits who rule over dangerous creatures and using the droppings of living animals, you can prevent nearby wild animals from attacking you.",
     "message": "\"By the name of Methenail, and by the name of Aphethial, and by the name of Vobehielael, who hold dominion over the beasts of the wild, I abjure thee\".",
     "components": "spell_components_hedge_prevent_wild_animal_attacks"
   },
